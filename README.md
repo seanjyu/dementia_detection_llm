@@ -47,6 +47,20 @@ There are two notebooks:
 
 The following packages were used in the experiments.
 ```
-
+pandas>=2.1.0
+numpy>=1.24.0
+tqdm>=4.66.0
+scikit-learn>=1.3.0
+torch>=2.1.0
+transformers>=4.35.0
+datasets>=2.14.0
+sentence-transformers>=2.2.2
+xgboost>=2.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+statsmodels>=0.14.0
+pydantic>=2.4.0
+huggingface_hub>=0.17.0
+sympy==1.12
 ```
 They can also be found in the requirements.txt 
