@@ -28,7 +28,9 @@ provided a negligible predictive signal, the integration of dense text embedding
 This suggests that high-dimensional semantic representations are uniquely capable of capturing the subtle, non-linear
 linguistic markers of cognitive decline that traditional structured data misses.
 
-## Reproducing results
+## Results
+The features extracted by the LLM and through regex can be found in the `results` folder in the csv files `llm_extracted_features.csv` and `regex_extracted_features.csv` respectively. The figures used in the report can also be fonud in the figures file.
+
 <!-- 
 ### Requirements
 The following packages were used in the experiments.
@@ -37,6 +39,14 @@ The following packages were used in the experiments.
 ```
 They can also be found in the requirements.txt -->
 
-### Files
+## Code
 The experiments were performed in notebooks, the notebooks can be found in the `notebooks/` folder.
+There are two notebooks:
+- `llm_patient_feature_final_gemma_2b_it.ipynb` contains code to obtain the LLM extracted features.
+- `xgboost_modelling_final.ipynb` contains code to generate the texte embedding as well as the models and figures.
 
+The following packages were used in the experiments.
+```
+
+```
+They can also be found in the requirements.txt 
